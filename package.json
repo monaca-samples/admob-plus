@@ -3,9 +3,8 @@
     "version": "3.0.1",
     "displayName": "Monaca Template Minimum",
     "dependencies": {
-        "cordova-plugin-splashscreen": "6.0.0",
         "monaca-plugin-monaca-core": "3.3.1",
-        "admob-plus-cordova": "1.27.0"
+        "admob-plus-cordova": "2.0.0-alpha.14"
     },
     "scripts": {
         "monaca:preview": "npm run dev",
@@ -13,16 +12,18 @@
     },
     "cordova": {
         "plugins": {
-            "cordova-plugin-splashscreen": {},
             "monaca-plugin-monaca-core": {},
             "admob-plus-cordova": {
                 "APP_ID_ANDROID": "ca-app-pub-3089782807744052~1551940127",
-                "APP_ID_IOS": "ca-app-pub-3089782807744052~8739295917"
+                "APP_ID_IOS": "ca-app-pub-3089782807744052~8739295917",
+                "PLAY_SERVICES_VERSION": "22.6.0",
+                "USAGE": "This identifier will be used to deliver personalized ads to you.",
+                "DISABLESDKCRASHREPORTING": "false"
             }
         }
     },
     "devDependencies": {
         "browser-sync": "~2.27.7",
-        "cordova": "^11.0.0"
+        "cordova": "^12.0.0"
     }
 }
