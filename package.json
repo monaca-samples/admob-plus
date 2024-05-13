@@ -4,7 +4,7 @@
     "displayName": "Monaca Template Minimum",
     "dependencies": {
         "monaca-plugin-monaca-core": "3.3.1",
-        "admob-plus-cordova": "2.0.0-alpha.14"
+        "admob-plus-cordova": "2.0.0-alpha.18"
     },
     "scripts": {
         "monaca:preview": "npm run dev",
